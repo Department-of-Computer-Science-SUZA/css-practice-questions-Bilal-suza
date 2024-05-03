@@ -1,0 +1,102 @@
+
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c8e8e0;
+    line-height: 1.6;
+    margin: 0;
+    padding-top: ;
+}
+
+header {
+    background-color: #2e937a;;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 1rem;
+    
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section#services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-box {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    
+}
+
+.service-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2e937a;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Footer styles remain the same as in the previous example */
+footer {
+    text-align: center;
+    padding: 2.5rem 0;
+    background-color: #2e937a;
+    color: #fff;
+
+}
+.service-box  img{
+   width: 100%;
+}
+.service-box  ul li{
+    list-style: none;
+ }
